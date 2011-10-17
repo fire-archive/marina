@@ -71,7 +71,7 @@ ul {
     line-height: 1.2em;
     right: 2%;
     bottom: 1%;
-    margin-bottom: -120px;
+    margin-bottom: -7.5em;
 }
 td {
     padding: .5em;
@@ -79,7 +79,7 @@ td {
 td.menuname {
     text-align: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.2em;
 }
 td.menublurb {
 }
