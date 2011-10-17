@@ -14,7 +14,7 @@ height: 100%;
 #header {
 height: 120px;
 text-align: center;
-font-family: "Old English Text MT";
+font-family: "Old English Text MT", Sans-serif;
 font-size: 48px;
 background-color: #8ca99c;
 margin-top: -124px;
