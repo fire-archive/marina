@@ -66,7 +66,7 @@ ul {
     font-family: "arial";
     font-style: italic;
 }
-#address {
+address {
     position: absolute;
     line-height: 1.2em;
     right: 2%;
