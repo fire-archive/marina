@@ -54,25 +54,6 @@ ul {
     padding: 1em;
     margin-left: 140px;
 }
-#footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    background-color: #8ca99c;
-    height: 3em;
-    line-height: 1.5em;
-    font-family: "arial";
-    font-style: italic;
-}
-address {
-    position: absolute;
-    line-height: 1.2em;
-    right: 2%;
-    bottom: 1%;
-    margin-bottom: -7.5em;
-}
 td {
     padding: .5em;
 }
@@ -95,4 +76,32 @@ td.imagemonth {
 }
 td.imagedescription {
     width: 60%;
+}
+#jobblurb, #apply {
+    float: left;
+}
+#jobblurb {
+    width: 20%;
+}
+#apply {
+    width: 50%;
+}
+#footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #8ca99c;
+    height: 3em;
+    line-height: 1.5em;
+    font-style: italic;
+    width: 100%;
+}
+address {
+    position:right;
+    line-height: 1.2em;
+    right: 2%;
+    bottom: 1%;
+    margin-bottom: -7.5em;
 }
