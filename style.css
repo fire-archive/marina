@@ -82,9 +82,13 @@ td.imagedescription {
 }
 #jobblurb {
     width: 20%;
+    margin: .5em;
 }
 #apply {
     width: 50%;
+}
+#apply td {
+padding: .2em;
 }
 #footer {
     position: relative;
