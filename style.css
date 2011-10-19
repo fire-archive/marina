@@ -3,7 +3,6 @@ body {
 }
 #page {
     font-family: "arial" "san-serif";
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -11,17 +10,12 @@ body {
     background-color: #c7dbb6;
     height: 100%;
 }
-#content {
-    height: 22em;
-    position: relative;
-}
 #header {
     height: 120px;
     text-align: center;
     font-family: "Old English Text MT";
     font-size: 48px;
     background-color: #8ca99c;
-    margin-top: -124px;
     line-height: 120px;
 }
 #logo {
