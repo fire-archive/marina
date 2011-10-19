@@ -19,6 +19,7 @@ body {
     line-height: 120px;
 }
 #logo {
+    float: left;
 }
 ul {
     margin: 0;
