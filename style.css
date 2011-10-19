@@ -99,7 +99,7 @@ td.imagedescription {
     width: 100%;
 }
 address {
-    position:right;
+    position:left;
     line-height: 1.2em;
     right: 2%;
     bottom: 1%;
