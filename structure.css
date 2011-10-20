@@ -21,10 +21,7 @@ td.imagedescription {
     width: 50%;
 }
 address {
-    position: relative;
     float: right;
-    right: 1em;
-    bottom: 1em;
 }
 #footer {
     clear: both;
