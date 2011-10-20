@@ -1,19 +1,12 @@
 body {
     margin: 0;
 }
-ul {
-    margin: 0;
-}
 #nav {
     padding: 1em 1em 1em .1em;  /* top right bottom left */
 }
 #nav li {
     padding: .5em 0;
 }
-#section {
-    padding: 1em;
-    margin-left: 9%;
-} 
 td {
     padding: .5em;
 }
