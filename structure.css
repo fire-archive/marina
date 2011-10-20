@@ -18,7 +18,6 @@ td.imagedescription {
     width: 50%;
 }
 address {
-    /* Make absolute so the address is placed in the bottom right of the section */
     position: relative;
     float: right;
     right: 1em;

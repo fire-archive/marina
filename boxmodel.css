@@ -20,6 +20,5 @@ td {
     padding: .2em;
 }
 address {
-    /* Make absolute so the address is placed in the bottom right of the section */
     padding-bottom: .5em;
 }
