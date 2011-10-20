@@ -1,8 +1,6 @@
 #nav {
     width: 10%;
-}
-#section {
-    position: relative;
+    float: left;
 }
 td.performancemonth {
     width: 25%;
@@ -21,7 +19,8 @@ td.imagedescription {
 }
 address {
     /* Make absolute so the address is placed in the bottom right of the section */
-    position: absolute;
+    position: relative;
+    float: right;
     right: 1em;
     bottom: 1em;
 }
