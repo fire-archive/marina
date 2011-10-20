@@ -75,8 +75,8 @@ address {
     /* Make absolute so the address is placed in the bottom right of the section */
     line-height: 1.2em;
     position: absolute;
-    right: 2%;
-    bottom: 2%;
+    right: 1em;
+    bottom: 1em;
     padding-bottom: .5em;
 }
 #footer {
