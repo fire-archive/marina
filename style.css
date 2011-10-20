@@ -41,14 +41,15 @@ ul {
 td {
     padding: .5em;
 }
+td.menuname, td.performancemonth {
     text-align: center;
     font-weight: bold;
+}
+td.menuname {
     font-size: 1.2em;
 }
 td.performancemonth {
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px; 
+    font-size: 110%; 
     width: 25%;
 }
 td.imagedescription {
