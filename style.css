@@ -78,9 +78,7 @@ td.imagedescription {
 }
 #jobblurb {
     width: 20%;
-    margin-top: 0em;
-    margin-left: .5em;
-    margin-right: .5em;
+    margin: 0 .5em; /* top/bottom left/right */
 }
 #jobblurb p {
     margin: 0;
