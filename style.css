@@ -71,6 +71,14 @@ td.imagedescription {
 #apply td {
     padding: .2em;
 }
+address {
+    /* Make absolute so the address is placed in the bottom right of the section */
+    line-height: 1.2em;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+    padding-bottom: .5em;
+}
 #footer {
     bottom: 0;
     left: 0;
@@ -81,11 +89,4 @@ td.imagedescription {
     line-height: 1.5em;
     font-style: italic;
     width: 100%;
-}
-address {
-    line-height: 1.2em;
-    padding-bottom: .5em;
-    right: 2%;
-    bottom: 2%;
-    position: absolute; 
 }
