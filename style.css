@@ -3,9 +3,6 @@
 @import url('structure.css');
 @import url('boxmodel.css');
 
-#nav ul {
+#nav ul, #section {
     list-style-type: none;
 }
-#section {
-    list-style-type: none;
-} 
