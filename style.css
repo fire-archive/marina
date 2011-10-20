@@ -1,89 +1,11 @@
-body {
-    margin: 0;
-}
-#page {
-    font-family: "arial" "san-serif";
-    background-color: #c7dbb6;
-}
-#header {
-    text-align: center;
-    background-color: #8ca99c;  
-    line-height: 120px;
-}
-#header span{
-    font-size: 3em;
-    font-family: "Old English Text MT";
-}
-ul {
-    margin: 0;
-}
-#nav {
-    float: left;
-    padding: 1em 1em 1em .1em;  /* top right bottom left */
-    background-color: #e7eec5;
-}
+@import url('colors.css');
+@import url('typography.css');
+@import url('structure.css');
+@import url('boxmodel.css');
+
 #nav ul {
     list-style-type: none;
 }
-#nav li {
-    padding: .5em 0;
-    text-indent: -2em;
-}
-#nav a {
-    text-decoration: none;
-}
 #section {
-    position: relative;
-    line-height: 1.5em;
-    padding: 1em;
-    margin-left: 9%;
+    list-style-type: none;
 } 
-td {
-    padding: .5em;
-}
-td.menuname, td.performancemonth {
-    text-align: center;
-    font-weight: bold;
-}
-td.menuname {
-    font-size: 1.2em;
-}
-td.performancemonth {
-    font-size: 110%; 
-    width: 25%;
-}
-td.imagedescription {
-    width: 60%;
-}
-#jobblurb, #apply {
-    float: left;
-}
-#jobblurb {
-    width: 20%;
-    margin: 0 .5em; /* vertical horizontal */
-}
-#jobblurb p {
-    margin: 0 0 .5em 0 ;  /* top right bottom left */
-}
-#apply {
-    width: 50%;
-}
-#apply td {
-    padding: .2em;
-}
-address {
-    /* Make absolute so the address is placed in the bottom right of the section */
-    line-height: 1.2em;
-    position: absolute;
-    right: 1em;
-    bottom: 1em;
-    padding-bottom: .5em;
-}
-#footer {
-    text-align: center;
-    background-color: #8ca99c;
-    height: 3em;
-    line-height: 1.5em;
-    font-style: italic;
-    width: 100%;
-}

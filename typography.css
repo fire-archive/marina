@@ -1,0 +1,38 @@
+#page {
+    font-family: "arial" "san-serif";
+}
+#header {
+    text-align: center;
+    line-height: 120px;
+}
+#header span{
+    font-size: 3em;
+    font-family: "Old English Text MT";
+}
+#nav a {
+    text-decoration: none;
+}
+#nav li {
+    text-indent: -2em;
+}
+#section {
+    line-height: 1.5em;
+} 
+td.menuname, td.performancemonth {
+    text-align: center;
+    font-weight: bold;
+}
+td.menuname {
+    font-size: 1.2em;
+}
+td.performancemonth {
+    font-size: 110%; 
+}
+address {
+    line-height: 1.2em;
+}
+#footer {
+    text-align: center;
+    line-height: 1.5em;
+    font-style: italic;
+}

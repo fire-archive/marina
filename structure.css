@@ -1,0 +1,32 @@
+#nav {
+    float: left;
+    width: 10%;
+}
+#section {
+    position: relative;
+}
+td.performancemonth {
+    width: 25%;
+}
+td.imagedescription {
+    width: 60%;
+}
+#jobblurb, #apply {
+    float: left;
+}
+#jobblurb {
+    width: 20%;
+}
+#apply {
+    width: 50%;
+}
+address {
+    /* Make absolute so the address is placed in the bottom right of the section */
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+#footer {
+    height: 3em;
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+ul {
+    margin: 0;
+}
+#nav {
+    padding: 1em 1em 1em .1em;  /* top right bottom left */
+}
+#nav li {
+    padding: .5em 0;
+}
+#section {
+    padding: 1em;
+    margin-left: 9%;
+} 
+td {
+    padding: .5em;
+}
+#jobblurb {
+    margin: 0 .5em; /* vertical horizontal */
+}
+#jobblurb p {
+    margin: 0 0 .5em 0 ;  /* top right bottom left */
+}
+#apply td {
+    padding: .2em;
+}
+address {
+    /* Make absolute so the address is placed in the bottom right of the section */
+    padding-bottom: .5em;
+}
