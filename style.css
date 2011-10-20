@@ -8,18 +8,20 @@ body {
     right: 0;
     bottom: 0;
     background-color: #c7dbb6;
-    height: 100%;
 }
 #header {
-    height: 120px;
+    position: relative;
     text-align: center;
-    font-family: "Old English Text MT";
-    font-size: 48px;
-    background-color: #8ca99c;
+    background-color: #8ca99c;  
     line-height: 120px;
 }
-#logo {
-    float: left;
+img.#logo {
+    position: absolute;
+    left: 20%;
+}
+#header span{
+    font-size: 3em;
+    font-family: "Old English Text MT";
 }
 ul {
     margin: 0;
@@ -49,7 +51,7 @@ ul {
     font-size: 16px;
     padding: 1em;
     margin-left: 140px;
-}
+} 
 td {
     padding: .5em;
 }
@@ -90,7 +92,7 @@ td.imagedescription {
     width: 50%;
 }
 #apply td {
-padding: .2em;
+    padding: .2em;
 }
 #footer {
     position: relative;
