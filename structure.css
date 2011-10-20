@@ -1,3 +1,6 @@
+#header img {
+    float: left;
+}
 #nav {
     width: 10%;
     float: left;
