@@ -19,9 +19,7 @@ ul {
 }
 #nav {
     float: left;
-    padding: 1em 0;
-    padding-left: .1em;
-    padding-right: 1em;
+    padding: 1em 1em 1em .1em;  /* top right bottom left */
     background-color: #e7eec5;
 }
 #nav ul {
@@ -61,11 +59,10 @@ td.imagedescription {
 }
 #jobblurb {
     width: 20%;
-    margin: 0 .5em; /* top/bottom left/right */
+    margin: 0 .5em; /* vertical horizontal */
 }
 #jobblurb p {
-    margin: 0;
-    margin-bottom: .5em;
+    margin: 0 0 .5em 0 ;  /* top right bottom left */
 }
 #apply {
     width: 50%;
