@@ -24,6 +24,5 @@ address {
     bottom: 1em;
 }
 #footer {
-    height: 3em;
-    width: 100%;
+    clear: both;
 }
