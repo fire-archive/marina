@@ -3,21 +3,12 @@ body {
 }
 #page {
     font-family: "arial" "san-serif";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background-color: #c7dbb6;
 }
 #header {
-    position: relative;
     text-align: center;
     background-color: #8ca99c;  
     line-height: 120px;
-}
-img.#logo {
-    position: absolute;
-    left: 20%;
 }
 #header span{
     font-size: 3em;
@@ -46,29 +37,21 @@ ul {
 #section {
     position: relative;
     line-height: 1.5em;
-    font-size: 16px;
     padding: 1em;
     margin-left: 9%;
 } 
 td {
     padding: .5em;
 }
-td.menuname {
     text-align: center;
     font-weight: bold;
     font-size: 1.2em;
-}
-td.menublurb {
-}
-td.menuprice {
 }
 td.performancemonth {
     text-align: center;
     font-weight: bold;
     font-size: 18px; 
     width: 25%;
-}
-td.imagemonth {
 }
 td.imagedescription {
     width: 60%;
@@ -91,7 +74,6 @@ td.imagedescription {
     padding: .2em;
 }
 #footer {
-    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
