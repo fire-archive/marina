@@ -6,3 +6,6 @@
 #nav ul, #section {
     list-style-type: none;
 }
+#section li {
+    list-style-type: none;
+}
