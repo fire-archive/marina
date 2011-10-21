@@ -1,9 +1,21 @@
 #header img {
     float: left;
+    height: 120px;
 }
 #nav {
-    width: 10%;
+    width: 6.5em;
     float: left;
+}
+#section p {
+    float: left;
+}
+#section ul {
+    float: left;
+    width: 75%;
+}
+address {
+    position: relative;
+    float: right;
 }
 td.performancemonth {
     width: 25%;
@@ -13,15 +25,15 @@ td.imagedescription {
 }
 #jobblurb, #apply {
     float: left;
+    height: 100%;
 }
 #jobblurb {
     width: 20%;
+    float: left;
 }
 #apply {
     width: 50%;
-}
-address {
-    float: right;
+    float: left;
 }
 #footer {
     clear: both;
