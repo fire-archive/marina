@@ -11,6 +11,14 @@ We have created a Marina Cafe website that matches the prototype given by the de
 
 ### Have not completed
 
+Unable to make page expand to fill screen. 1) all pages 2) jobs page
+
+2) because of inability expand, the address is in the wrong location on the page.
+
+Unable to verify that The Old English Font shows.
+
+Unable to make blurb on jobs page be a different color, but is still a blurb.
+
 We have not drastically improved the visual design. There has been no compatibility testing on other browsers other than IE9. The PHP submit page does not exist. The email encoding is not really effective. A more effective defence against automated email harvesting is using a captcha or a contact form.
 
 ### Challenges

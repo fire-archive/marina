@@ -3,12 +3,14 @@ body {
 }
 #nav {
     padding: .5em 1em .5em .1em;  /* top right bottom left */
+    margin-right: 1em;
 }
 #nav li {
     padding: .5em 0;
 }
 #section span.#blurb{
-    padding: 1em;
+    padding: 2em;
+    margin-top: 1em;
 }
 td {
     padding: .5em;

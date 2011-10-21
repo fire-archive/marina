@@ -17,7 +17,10 @@
 }
 #section {
     line-height: 1.5em;
-} 
+}
+#section span.#blurb {
+    align: center;
+}
 td.menuname, td.performancemonth {
     text-align: center;
     font-weight: bold;
