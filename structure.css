@@ -4,13 +4,14 @@
 }
 #nav {
     width: 6.5em;
-    float: left;
+}
+#section table {
+    clear: both;
 }
 #section p {
     float: left;
 }
 #section ul {
-    float: left;
     width: 75%;
 }
 address {
