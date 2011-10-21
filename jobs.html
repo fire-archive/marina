@@ -41,54 +41,53 @@
           <form id="apply" action="job_applications.php" method="post" >
             <table>
               <tr>
-                <td>Name:</td>
+                <td align="right">Name:</td>
                 <td>
                   <input type="text" name="name" />
                 </td>
               </tr>
               <tr>
-                <td>E-mail:</td>
+                <td align="right">E-mail:</td>
                 <td>
                   <input type="text" name="email" />
                 </td>
               </tr>
               <tr>
-                <td>Phone:</td>
+                <td align="right">Phone:</td>
                 <td>
                   <input type="text" name="phone" />
                 </td>
               </tr>
               <tr>
-                <td colspan="2" >Please select the job roles you are interested
-                in:</td>
+                <td colspan="2" align="center" >Please select the job roles you are interested in:</td>
               </tr>
               <tr>
-                <td>
+                <td align="right">
                   <input type="checkbox" name="job-roles" value="bar-associate" />
                 </td>
                 <td>Bar Associate</td>
               </tr>
               <tr>
-                <td>
+                <td align="right">
                   <input type="checkbox" name="job-roles" value="server" />
                 </td>
                 <td>Server</td>
               </tr>
               <tr>
-                <td>
+                <td align="right">
                   <input type="checkbox" name="job-roles" value="cleaning-and-maintenance" />
                 </td>
                 <td>Cleaning &amp; Maintenance</td>
               </tr>
               <tr>
-                <td>
+                <td align="right">
                   <input type="checkbox" name="job-roles"
                          value="manager" />
                 </td>
                 <td>Manager</td>
               </tr>
               <tr>
-                <td>Employment type:</td>
+                <td align="right">Employment type:</td>
                 <td>
                   <input type="radio" name="employment-type"
                          value="part-time" /> 
@@ -99,7 +98,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Gender:</td>
+                <td align="right">Gender:</td>
                 <td>
                   <input type="radio" name="sex" value="male" />
                   <span>Male</span>
@@ -108,7 +107,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Years of experience:</td>
+                <td align="right">Years of experience:</td>
                 <td>
                   <select name="years-of-experience">
                     <option value="0" >No experience</option>
@@ -118,16 +117,20 @@
                 </td>
               </tr>
               <tr>
-                <td colspan="2">
-                  <p>Comments:</p>
-                  <textarea rows="2" cols="6" name="comments" ></textarea>
+                <td align="right">
+                  <span>Comments:</span>               
                 </td>
               </tr>
               <tr>
-                <td>
+                <td colspan="2">
+                   <textarea rows="5" cols="60" name="comments"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td align="right">
                   <input type="submit" />
                 </td>
-                <td>
+                <td align="left">
                   <input type="reset" />
                 </td>
               </tr>
