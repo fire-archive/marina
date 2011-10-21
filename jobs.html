@@ -28,86 +28,95 @@
 	<div id="section">
           <div id="jobblurb">
             <p>Are you a college student who would like a part time
-              job?</p>
+            job?</p>
             <p>Apply at Marina Cafe -- we will work around your school
-              schedule</p>
+            schedule</p>
             <p>Complete the information form at the right to get the
-              application process started</p>
+            application process started</p>
             <p>Or, if you prefer, stop by Marina Cafe any time and ask
-              about employment opportunities.</p>
+            about employment opportunities.</p>
             <p>Marina Cafe is an equal opportunity employer</p>
             <p>We celebrate the diversity of our associates!</p>
           </div>
-          <form id="apply">
+          <form id="apply" name="job-application"
+                action="job_applications.php" method="post" >
             <table>
               <tr>
-                <td>Name</td>
-                <td><input type="text" /></td>
+                <td>Name:</td>
+                <td><input type="text" name="name" /></td>
               </tr>
               <tr>
-                <td>E-mail</td>
-                <td><input type="text" /></td>
+                <td>E-mail:</td>
+                <td><input type="text" name="email" /></td>
               </tr>
               <tr>
-                <td>Phone</td>
-                <td><input type="text" /></td>
+                <td>Phone:</td>
+                <td><input type="text" name="phone" /></td>
               </tr>
               <tr>
-                <td>Please select the job roles you are interested
-                  in:</td>
+                <td colspan="2" >Please select the job roles you are interested
+                in:</td>
               </tr>
               <tr>
                 <td>
-                  <input type="checkbox" />
+                  <input type="checkbox" name="job-roles" value="bar-associate" />
                 </td>
                 <td>Bar Associate</td>
               </tr>
               <tr>
                 <td>
-                  <input type="checkbox" />
+                  <input type="checkbox" name="job-roles" value="server" />
                 </td>
                 <td>Server</td>
               </tr>
               <tr>
                 <td>
-                  <input type="checkbox" />
+                  <input type="checkbox" name="job-roles" value="cleaning-and-maintenance" />
                 </td>
-                <td>Cleaning & Maintenance</td>
+                <td>Cleaning &amp; Maintenance</td>
               </tr>
               <tr>
                 <td>
-                  <input type="checkbox" />
+                  <input type="checkbox" name="job-roles"
+                         value="manager" />
                 </td>
                 <td>Manager</td>
               </tr>
               <tr>
                 <td>Employment type:</td>
                 <td>
-                  <input type="radio">Part-time</input>
-                  <input type="radio">Full-time</input>
+                  <input type="radio" name="employment-type"
+                         value="part-time" /> 
+                  <span>Part-time</span>
+                  <input type="radio" name="employment-type"
+                         value="full-time" />
+                  <span>Full-time</span>
                 </td>
               </tr>
               <tr>
-                <td>Gender</td>
+                <td>Gender:</td>
                 <td>
-                  <input type="radio">Male</input>
-                  <input type="radio">Female</input>
+                  <input type="radio" name="sex" value="male" />
+                  <span>Male</span>
+                  <input type="radio" name="sex" value="female" />
+                  <span>Female</span>
                 </td>
               </tr>
               <tr>
-                <td>Years of experience</td>
+                <td>Years of experience:</td>
                 <td>
-                  <select>
-                    <option>No experience</option>
-                    <option>Less than 1 year</option>
-                    <option>More than 1 year</option>
+                  <select name="years-of-experience">
+                    <option value="0" >No experience</option>
+                    <option value="less-than-1" >Less than 1 year</option>
+                    <option value="more-than-1" >More than 1 year</option>
                   </select>
-                </tr>
+                </td>
+              </tr>
               <tr>
                 <td colspan="2">
-                  <p>Comments</p>
-                  <textarea rows="2" cols="6"></textarea>
-                </d>
+                  <p>Comments:</p>
+                  <textarea rows="2" cols="6" name="comments" ></textarea>
+                </td>
               </tr>
               <tr>
                 <td>
@@ -117,20 +126,20 @@
                   <input type="reset" />
                 </td>
               </tr>
-              </table>
-            </form>
-            <address>
-	      <span class="street-address">667 Lawrence Ave</span>
-	      <br />
-	      <span class="region">Kelowna</span>
-	      <span>, </span>
-	      <span class="province">BC</span>
-	      <span class="postal-code">V1Y 6L8</span>
-	      <br />
-	      <span class="tel">1-888-888-8888</span>
-	    </address>
-	  </div>
-        </div>
+            </table>
+          </form>
+          <address>
+	    <span class="street-address">667 Lawrence Ave</span>
+	    <br />
+	    <span class="region">Kelowna</span>
+	    <span>, </span>
+	    <span class="province">BC</span>
+	    <span class="postal-code">V1Y 6L8</span>
+	    <br />
+	    <span class="tel">1-888-888-8888</span>
+	  </address>
+	</div>
       </div>
-    </body>
-  </html>
+    </div>
+  </body>
+</html>
