@@ -3,10 +3,10 @@
     height: 120px;
 }
 #nav {
+    float: left;
     width: 6.5em;
 }
 #section table {
-    clear: both;
 }
 #section p {
     float: left;
